@@ -13,3 +13,8 @@ console.log(cart.items);
 
 const a = new Movie(2012, 'США', 'Avengers Assemble!', ['фантастика', 'боевик', 'фентези', 'приключения'], '137 мин. / 02:17');
 console.log(a);
+
+console.log(cart.totalPrice());
+console.log(cart.discount(1));
+console.log(cart.removeItem(1008));
+console.log(cart.items);
